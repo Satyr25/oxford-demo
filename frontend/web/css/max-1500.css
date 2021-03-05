@@ -1,0 +1,9 @@
+@media only screen and (min-width: 1500px) {
+    #bloque-margaret{
+        min-height: 55vh;
+    }
+
+    #guideline{
+        min-height: 100vh;
+    }
+}

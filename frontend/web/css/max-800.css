@@ -1,0 +1,12 @@
+@media only screen and (max-width: 800px) {
+    .desplegado #menu{
+        width: 100%;
+    }
+
+    #social-responsability .img-otcc{
+        width: 50%;
+    }
+    .container-head-contacto{
+        display: none !important;
+    }
+}

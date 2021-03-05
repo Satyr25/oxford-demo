@@ -1,0 +1,46 @@
+@media only screen and (max-width: 766px) {
+    .navbar-header,
+    .navbar .container{
+        width: 100%;
+    }
+
+    .navbar-collapse{
+        background: linear-gradient(to right, rgb(15,79,44), black);
+        border: 0;
+        margin-top: 35px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .navbar-right li{
+        display: block;
+        float: left;
+        margin: 0;
+        text-align: center;
+    }
+
+    #icono-usuario{
+        display: none;
+    }
+
+    #option-exams{
+        width: 30%;
+    }
+
+    #nombre-alumno{
+        width: 50%;
+    }
+
+    #boton-cerrar{
+        width: 20%;
+    }
+
+    #countdown-timer{
+        bottom: 40px;
+        font-size: 30px;
+    }
+
+    #acciones-examen {
+        margin-bottom: 50px;
+    }
+}

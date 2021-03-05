@@ -1,0 +1,187 @@
+@media only screen and (max-width: 600px) {
+    body.desplegado{
+        overflow: hidden;
+    }
+    /* header .container{
+        position: relative;
+    } */
+
+    #menu{
+        display: none;
+    }
+
+    #boton-menu{
+        display: table-cell;
+        padding-left: 30px;
+    }
+
+    #btn-perfil{
+        padding-right: 30px;
+    }
+
+    #scroll{
+        bottom: 10px;
+    }
+
+    #mission-vision {
+        background-position: center bottom !important;
+        background-size: 160px auto;
+        padding-bottom: 170px;
+    }
+
+    #exam-types img:first-child{
+        width: 95% !important;
+    }
+
+    #exam-types img{
+        float: none;
+        margin: 30px auto;
+        width: 95%;
+    }
+
+    #skills .skill{
+        margin: 40px 2% !important;
+        width: 46%;
+    }
+
+    #skills .skill#skill-speaking,
+    #skills .skill#skill-writing{
+        float: left;
+        margin: inherit;
+    }
+
+    #skills .skill#skill-writing{
+        float: none;
+        clear: both;
+        margin: 40px auto !important;
+        margin-bottom: 0 !important;
+    }
+
+    #datos-contacto{
+        display: block;
+    }
+
+    #datos-contacto .otc, #datos-contacto .oem{
+        display: block;
+        width: 100%;
+    }
+
+    #contact .container{
+        background-size: auto 70%;
+    }
+
+    .img-skill{
+        display: none;
+    }
+
+    .contenedor-skill .texto-skill{
+        float: none;
+        width: 100%;
+    }
+
+    .texto-skill h2{
+        text-align: center;
+    }
+
+    .texto-skill .skill-mobile{
+        width: 80%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    #london-text h1{
+        font-size: 30px;
+    }
+
+    #london-text .container div{
+        line-height: 25px;
+        font: 18px !important;
+    }
+
+    #exams .container{
+        width: 100%;
+    }
+
+    #about-us,#exams,#skills,#associates{
+        padding: 50px 0;
+    }
+
+    #mission-vision,#contact .container{
+        padding-top: 50px;
+    }
+
+    #skills h1{
+        margin-bottom: 50px;
+    }
+
+    .mfp-container{
+        padding: 0;
+        width: 100%;
+    }
+
+    #contact .container{
+        background-image: none;
+    }
+
+    #datos-contacto{
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #bloque-margaret{
+        height: auto;
+    }
+
+    #margaret,#foto-margaret,#datos-margaret{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #margaret{
+        left: 0;
+        padding-top: 150px;
+        position: relative;
+        width: 100%;
+    }
+
+    #datos-margaret{
+        margin-top: 50px;
+    }
+
+    #profile{
+        right: -100%;
+        width: 100%;
+    }
+
+    .desplegado #menu ul li a{
+        font-size: 1.2em;
+    }
+
+    .level-info{
+        float: none;
+        width: 100%;
+    }
+
+    #guideline {
+        background-size: auto 100px;
+        background-position: center bottom;
+    }
+
+    #level-comparison{
+        font-size: 20px;
+    }
+
+    #associates img{
+        width: 25%;
+    }
+
+    #social-responsability .description {
+        padding: 0 20px;
+    }
+
+    #contact-form {
+        padding: unset;
+    }
+}

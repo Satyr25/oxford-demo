@@ -1,0 +1,95 @@
+body{
+    font-family: 'DejaVuSans';
+    font-size: 11px;
+}
+
+#logo{
+    float: left;
+    width: 190px;
+}
+
+#titulo{
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 250px;
+    padding-top: 80px;
+}
+
+.espacio-vertical{
+    height: 30px;
+}
+
+.bloque-mitad{
+    border: 1px solid #000;
+    float: left;
+    padding: 5px;
+    width: 48%;
+}
+
+.bloque-mitad .contenido{
+    width: 100%;
+}
+
+.bloque-mitad .contenido td{
+    font-size: 13px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.subtitulo{
+    font-weight:  bold;
+    padding-bottom: 10px;
+}
+
+
+.bloque-mitad .envio{
+    padding-bottom: 10px;
+}
+
+#documento,#paquete{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+#texto-asegurar,#si,#no{
+    float: left;
+}
+
+#texto-asegurar{
+    width: 48%;
+}
+
+#si,#no{
+    width: 25%;
+}
+
+#observaciones div{
+    font-size: 8px;
+}
+
+#observaciones{
+    height: 150px !important;
+}
+
+#firma-solicitante{
+    border-top: 1px solid #000;
+    padding-bottom:79px;
+    padding-top: 5px;
+    margin-top:20px;
+    width: 100%;
+}
+
+.nombre-firma{
+    border-top: 1px solid #000;
+    font-size: 11px;
+    padding-top: 5px;
+    margin-top: 100px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

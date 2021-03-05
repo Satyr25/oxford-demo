@@ -1,0 +1,53 @@
+@media only screen and (max-width: 500px) {
+    body{
+        width: 100%;
+    }
+
+    #we-do .do{
+        width: 100%;
+    }
+
+    #skills .skill, #skills .skill{
+        float: none;
+        margin: 40px auto !important;
+        width: 80%;
+    }
+
+    #london{
+        background-size: auto !important;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #london-text .container div{
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    #about-us .container div,
+    #mission, #vision, #values,
+    #guideline .container div{
+        font-size: 18px;
+    }
+
+    #guideline .container a{
+        font-size: 20px;
+    }
+
+    #skills .skill#skill-speaking{
+        float: none !important;
+    }
+
+    #associates img{
+        width: 49%;
+    }
+
+    #social-responsability .img-otcc{
+        float: left;
+        margin: 30px 0;
+        width: 100%;
+    }
+}

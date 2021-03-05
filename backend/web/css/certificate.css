@@ -1,0 +1,67 @@
+*{
+    /* font-family: 'Times New Roman'; */
+}
+
+#nombre-alumno{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 275px;
+    /* text-transform: capitalize; */
+}
+
+#nivel{
+    padding-left: 185px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#acreditacion{
+    font-size: 10px;
+    padding-left: 130px;
+    padding-top: 45px;
+}
+
+#nivel-prueba{
+    color: #fff;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td{
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+
+th{
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    width: 250px;
+}
+
+#puntos th{
+    font-weight: bold;
+}
+
+#puntos,
+#calificaciones{
+    padding-top: 20px;
+}
+
+#fecha{
+    font-size: 16px;
+    /* padding-top:100px; */
+    position: absolute;
+    left: 40px;
+    bottom: 88px;
+}

@@ -1,0 +1,77 @@
+@media only screen and (max-width: 990px) {
+    #associates .container{
+        padding: 0;
+        width: 100%;
+    }
+
+    #we-do .do{
+        padding: 30px;
+        width: 50%;
+    }
+
+    #exam-types img:first-child{
+        width: 48% !important;
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    #exam-types img{
+        width: 48%;
+    }
+
+    #skills .skill{
+        width: 31%;
+    }
+
+    #skills .skill#skill-speaking,
+    #skills .skill#skill-writing{
+        margin-top: 50px;
+    }
+
+    #skills .skill#skill-speaking{
+        margin-left: 15%;
+    }
+
+    #skills .skill#skill-writing{
+        float: right;
+        margin-right: 15%;
+    }
+
+    #associates img{
+        width: 22%;
+    }
+
+    #profile{
+        right: -50%;
+        width: 50%;
+    }
+
+    .desplegado #menu ul li a{
+        font-size: 1.2em;
+    }
+
+    #guideline{
+        background-size: 25%;
+    }
+
+    #opciones-footer{
+        display: none;
+    }
+
+    footer.footer{
+        height: 60px;
+    }
+
+    #tutorials #videos .video{
+        float: none;
+        width: 100%;
+    }
+
+    #tutorials #videos .video{
+        margin: 50px 0;
+        padding-bottom: 56%;
+    }
+    .container-contacto-social{
+        display: none;
+    }
+}
